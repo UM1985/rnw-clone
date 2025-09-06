@@ -1,0 +1,57 @@
+body{
+  background-color: #D3D3D3;
+}
+.navbar{
+    background-color: #D3D3D3;
+
+}
+.navbar .nav-link {
+  transition: color 0.3s ease;
+}
+.navbar .nav-link:hover {
+  color: #dc3545; /* Bootstrap Danger color */
+}
+
+
+/* slider */
+
+.fa-circle-arrow-left , .fa-circle-arrow-right{
+    font-size: 40px;
+    color :#dc3545;
+    fill-opacity: 1;
+}
+
+/* cards */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+ 
+
+/* mentor1 */
+.mentor-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mentor-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+
+/* citycard */
+
+.city-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.city-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
