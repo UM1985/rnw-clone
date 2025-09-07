@@ -55,3 +55,62 @@ body{
   transform: translateY(-8px);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
 }
+/* footer */
+
+/* footer.css */
+.footer-list li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 6px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.footer-list li:hover{
+  color: #737576;
+}
+
+.footer-list li::before {
+  content: "\f0da"; /* Font Awesome "angle-right" */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: rgb(228, 26, 26);
+  position: absolute;
+  left: 0;
+  font-size: 13px;
+}
+
+
+.footer-item {
+  position: relative; /* so ::before & ::after align correctly */
+  margin-bottom: 20px;
+}
+
+.footer-item h5 {
+  position: relative;
+  display: inline-block; /* so underline stays aligned */
+  padding-bottom: 6px;
+}
+
+/* Gray underline */
+.footer-item h5::before {
+  content: '';
+  width: 40px;
+  height: 1px;
+  background-color: #737576;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+}
+
+/* White short underline */
+.footer-item h5::after {
+  content: '';
+  width: 12px;
+  height: 2px;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  border-radius: 10px;
+}
