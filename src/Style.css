@@ -77,6 +77,7 @@ body{
   color: rgb(228, 26, 26);
   position: absolute;
   left: 0;
+  /* padding-right: 10px; */
   font-size: 13px;
 }
 
@@ -93,7 +94,7 @@ body{
 }
 
 /* Gray underline */
-.footer-item h5::before {
+.footer-item h5::before, .footer-item h5::after {
   content: '';
   width: 40px;
   height: 1px;
@@ -105,12 +106,12 @@ body{
 
 /* White short underline */
 .footer-item h5::after {
-  content: '';
+  /* content: ''; */
   width: 12px;
   height: 2px;
   background-color: #ffffff;
-  position: absolute;
-  bottom: -4px;
-  left: 0;
+  /* position: absolute; */
+  /* bottom: -4px; */
+  /* left: 0; */
   border-radius: 10px;
 }

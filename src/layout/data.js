@@ -1,5 +1,5 @@
 const data = [
-  { image: "/Course-images/1.png", title: "Web Designing" },
+  { image: "Course-images/1.png", title: "Web Designing" },
   { image: "/Course-images/2.png", title: "ISO Development" },
   { image: "/Course-images/1.png", title: "Web Development" },
   { image: "/Course-images/2.png", title: "Android Designing" },
@@ -11,5 +11,6 @@ const data = [
   { image: "/Course-images/design.png", title: "Poster Design" },
   { image: "/Course-images/hacker.png", title: "Cyber Security" },
 ];
+
 
 export default data;
